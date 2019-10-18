@@ -22,4 +22,4 @@ RUN yum install -y centos-release-scl-rh && \
 RUN chown -R 1001:0 $HOME && \
     chmod -R g+rw $HOME
 
-USER 1001
+USER root
